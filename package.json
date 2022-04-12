@@ -1,0 +1,27 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "Prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "author": "Gangster",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/node-pre-gyp": "^0.4.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.8.0",
+    "all": "^0.0.0",
+    "discord-api-types": "^0.25.1",
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "mongoose": "^6.1.4",
+    "node-addon-api": "^4.3.0",
+    "quick.db": "^7.1.3"
+  }
+}
